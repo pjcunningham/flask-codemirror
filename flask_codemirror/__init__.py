@@ -25,12 +25,9 @@
 
 import requests
 import warnings
-from flask import current_app, Markup
-
-try:
-    from urllib.parse import urljoin
-except ImportError:
-    from urlparse import urljoin
+from flask import current_app
+from markupsafe import Markup
+from urllib.parse import urljoin
 
 
 __all__ = ["CodeMirror", "CodeMirrorConfigException"]
