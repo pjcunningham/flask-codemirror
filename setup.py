@@ -25,7 +25,7 @@ setup(
     packages=["flask_codemirror"],
     zip_safe=False,
     platforms="any",
-    install_requires=["Flask", "WTForms", "requests"],
+    install_requires=["Flask", "WTForms", "requests", "markupsafe"],
     tests_require=["Flask-WTF"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
